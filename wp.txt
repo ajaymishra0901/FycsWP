@@ -1,0 +1,23 @@
+<html>
+<body>
+<?php
+	$name=$_REQUEST["txtname"];
+	$Gr_no=$_REQUEST["txtGr_no"];
+	$wp=$_REQUEST["txtwp"];
+	$oops=$_REQUEST["txtoops"];
+	$dm=$_REQUEST["txtdm"];
+	$pp=$_REQUEST["txtpp"];
+	$dbms=$_REQUEST["txtdbms"];
+	
+	echo "<h1>GET DATA FORM</h1>";
+	echo "<h1>name:.".$name."</h1>";
+	echo "<h1>Gr no:.".$Gr_no."</h1>";
+	echo "<h1>WP MARKS.".$wp."</h1>";
+        echo "<h1>OOPS MARKS.".$oops."</h1>";
+        echo "<h1>DM MARKS.".$dm."</h1>";
+        echo "<h1>PP MARKS.".$pp."</h1>";
+        echo "<h1>DBMS MARKS.".$dbms."</h1>";
+
+?>
+</body>
+</html>

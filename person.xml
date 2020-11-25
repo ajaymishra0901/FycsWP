@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="person.css"?>
+<!DOCTYPE people[
+<!ELEMENT person (name_first,name_last,personal_details+)>
+<!ELEMENT name_first (#PCDATA)>
+<!ELEMENT name_last (#PCDATA)>
+<!ELEMENT personal_details (age,weight)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+]>
+<people>
+    <person>
+        <name_first>Jon</name_first>
+        <name_last>Smith</name_last>
+            <personal_details>
+                <age>20</age>
+                <weight>70</weight>
+            </personal_details>
+    </person>
+    <person>
+        <name_first>Prem</name_first>
+        <name_last>Madhani</name_last>
+            <personal_details>
+                <age>50</age>
+                <weight>60</weight>
+            </personal_details>
+    </person>
+</people>
+
